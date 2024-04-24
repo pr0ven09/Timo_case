@@ -11,14 +11,7 @@ cycler==0.11.0
 fonttools==4.38.0
     # via matplotlib
 kiwisolver==1.4.4
-    # via matplotlib
-### Dependencies for Core Plotly Functionality  ###
-###                                             ###
-### To install, run:                            ###
-###      $ pip install -r requirements.txt      ###
-###                                             ###
-###################################################
-## retrying requests ##
+plotly==5.21.0
 tenacity>=6.2.0
 matplotlib==3.6.2
     # via
