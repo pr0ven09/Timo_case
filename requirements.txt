@@ -49,3 +49,10 @@ seaborn==0.10.1
     # via -r requirements.in
 six==1.16.0
     # via python-dateutil
+numpy==1.21.4
+pandas==1.3.4
+pyinstrument==4.0.3
+typer==0.4.0
+def install_dependencies():
+    !pip install plotly
+install_dependencies()
